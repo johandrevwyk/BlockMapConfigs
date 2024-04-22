@@ -20,7 +20,6 @@ public class BlockMapConfigs : BasePlugin
 
     public override void Load(bool hotReload)
     {
-        Console.WriteLine("Blocking aim_ map configs");
         LoadConfig();
 
         RegisterListener<Listeners.OnMapStart>(OnMapStart);
